@@ -7,7 +7,7 @@ ddate.1.gz: ddate.1
 
 install: ddate ddate.1.gz
 	install -d ${DESTDIR}${PREFIX}/bin
-	install -m 755 -o root -g root ddate ${DESTDIR}${PREFIX}/ddate
+	install -m 755 -o root -g root ddate ${DESTDIR}${PREFIX}/bin/ddate
 	install -d ${DESTDIR}${PREFIX}/share/man/man1
 	install -d ${DESTDIR}${PREFIX}/share/man/man1/ddate.1.gz
 
